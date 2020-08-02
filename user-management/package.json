@@ -1,0 +1,34 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "User Management API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src src/index.js",
+    "doc": "apidoc -i src/ -o doc",
+    "pretty": "prettier --write src/",
+    "ci": "npm run lint"
+  },
+  "keywords": [
+    "user"
+  ],
+  "author": "Ashok JayaPrakash <ashokjp93@gmail.com>",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.x",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.0.0",
+    "md5": "^2.2.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.27",
+    "save": "^2.3.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}

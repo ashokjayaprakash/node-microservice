@@ -1,0 +1,6 @@
+auth-service/
+auto-create-user/
+sw-order-management/
+node_modules/
+package-lock.json
+log/
